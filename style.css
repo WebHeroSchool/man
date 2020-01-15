@@ -1,0 +1,75 @@
+@keyframes move {
+  0%   {top: 0px; width: 20px;}
+    100% {top: 200px; width: 90px;}
+}
+
+.body {
+  font-family: 'Pacifico', cursive;
+}
+.header {
+  text-align: center;
+  color: grey;
+  border: 3px solid grey;
+  font-family: 'Seymour One', sans-serif;
+  }
+.header__pic {
+  width: 90px;
+  animation: move 2s linear;
+}
+.header__link {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 150%;
+  flex-grow: 20;
+}
+.main {
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+  color: white;
+  background-image: url(https://womanway.online/published/publicdata/WOMANWAY/attachments/SC/products_pictures/%D0%BF%D0%B8%D1%80%D0%BE%D0%B3qz.jpg);
+  height: 100px;
+}
+.main__text {
+  text-align: center;
+  margin: 5px;
+  color: black;
+}
+.main__button {
+  background: lightskyblue;
+  background-image: none;
+  outline-style: dotted;
+  outline-color: lightskyblue;
+  margin: 10px;
+}
+.main__pic {
+  font-size: 20px;
+  width: 150px;
+  }
+ 
+.footer__pic {
+  width: 150px;
+  align-content: center;
+  margin: 20px;
+  display: table;
+}
+
+.main__slogan {
+  color: black;
+}
+.footer {
+  color: black;
+  text-align: left;
+  text-decoration-style: double;
+}
+.border {
+  width: 100;
+  border: 20px;
+}
+.footer__socials {
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+  padding-bottom: 20px;
+}
